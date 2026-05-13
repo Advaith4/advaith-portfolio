@@ -24,6 +24,13 @@ const story = [
     type: "internship",
   },
   {
+    year: "2026",
+    title: "1st Prize · StartupTN & HackHere Hackathon",
+    sub: "Won first place building an AI-powered forensic investigation platform.",
+    Icon: Trophy,
+    type: "achievement",
+  },
+  {
     year: "2025",
     title: "1st Prize · L&T EduTech 24-hr Hackathon",
     sub: "Beat 200+ teams with a multi-agent AI career platform.",

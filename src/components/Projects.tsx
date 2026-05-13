@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Brain, Flame, Heart, Sparkles, type LucideIcon } from "lucide-react";
+import { ArrowUpRight, Brain, Flame, Heart, Sparkles, Shield, type LucideIcon } from "lucide-react";
 
 type Project = {
   num: string;
@@ -16,6 +16,17 @@ type Project = {
 const projects: Project[] = [
   {
     num: "01",
+    Icon: Shield,
+    title: "AIVENTRA / ForensiAI",
+    tag: "AI Forensic Investigation Platform",
+    desc: "An end-to-end AI-powered forensic investigation platform combining LLMs, CrewAI multi-agent systems, FastAPI, and React to automate forensic analysis, evidence correlation, and criminal case workflows.",
+    stack: ["React", "FastAPI", "CrewAI", "LLMs", "SQLAlchemy"],
+    highlights: ["Automated forensic report generation", "Timeline reconstruction", "Multi-agent evidence correlation"],
+    repoUrl: "https://github.com/ByteNinjaOfficial/AIVENTRA.git",
+    accent: "primary",
+  },
+  {
+    num: "02",
     Icon: Flame,
     title: "Streaker AI",
     tag: "Intelligent DSA Learning Platform",
@@ -26,7 +37,7 @@ const projects: Project[] = [
     accent: "warm",
   },
   {
-    num: "02",
+    num: "03",
     Icon: Sparkles,
     title: "JobifyAI",
     tag: "Multi-Agent Career Assistant",
@@ -36,7 +47,7 @@ const projects: Project[] = [
     accent: "primary",
   },
   {
-    num: "03",
+    num: "04",
     Icon: Heart,
     title: "PsyCare",
     tag: "Psychiatrist Consultation Portal",
@@ -46,7 +57,7 @@ const projects: Project[] = [
     accent: "warm",
   },
   {
-    num: "04",
+    num: "05",
     Icon: Brain,
     title: "Postpartum Depression Detection",
     tag: "ML + Chatbot Assistance - Patent Filed",
